@@ -198,6 +198,12 @@
 			</dict>
 		</dict>
 	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Feather discovers this iPhone's Remote Pairing service to install APPs via iDevice</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_remotepairing._tcp</string>
+	</array>
 <key>NSAppTransportSecurity</key>
 <dict>
     <key>NSExceptionDomains</key>
